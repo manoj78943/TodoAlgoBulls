@@ -25,13 +25,16 @@ This project is a simple Todo application built using Django.
    cd TodoAlgoBulls
 
 2. Virtual environment:
+    ```bash
     python -m venv env
     .\env\Scripts\activate  # On Windows
 
 3. Install dependencies:
+    ```bash
     pip install -r requirements.txt
 
 4. Apply database migrations:
+    ```bash
     python manage.py makemigrations
     python manage.py migrate
 
